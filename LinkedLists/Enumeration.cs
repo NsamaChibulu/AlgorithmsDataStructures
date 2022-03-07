@@ -12,3 +12,20 @@ foreach (int value in ints) /// enumerates from head to tail
     Console.WriteLine(value); //Print out list of values 1,2,3
 }
 
+
+// Get Enumerator method 
+
+class enumeration
+{
+    public System.Collections.Generic.IEnumerator<T> GetEnumerator()
+    {
+        DoublyLinkedListNode<T> current = Head;
+        while (current != null)
+        {
+            yield return current.Value;
+            current = current.Next;
+
+
+        }
+    }
+}
