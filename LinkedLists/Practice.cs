@@ -3,7 +3,7 @@ package LinkedLists;
 //linked list Intro
 class Node
 {
-    public Node (int value) 
+    public Node(int value)
     {
         this.Value = value; // Value being stored
         this.Next = null; // references the next node to say thats its null
@@ -26,7 +26,7 @@ class Node
 
 class LinkedListNode<TNode>
 {
-    public LinkedListNode(TNode value, LinkedListNode<TNode> next = null) 
+    public LinkedListNode(TNode value, LinkedListNode<TNode> next = null)
     {
         this.Value = value;
         this.Next = next;
@@ -56,7 +56,7 @@ class DoublyLinkedListNode<TNode>
     Node<TNode> prev = null,
     Node<TNode> next = null)
     {
-        tthis.Value = value;
+        this.Value = value;
         this.Previous = null; //reference to previous node
         this.Next = null;
     }
