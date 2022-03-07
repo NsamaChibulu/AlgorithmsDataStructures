@@ -15,7 +15,7 @@ namespace ContactManager
             {
                 for (int i = 0; i < contactCount; i++)
                 {
-                    yield return contacts[i]
+                    yield return contacts[i];
                 }
             }
         }
@@ -27,7 +27,7 @@ namespace ContactManager
                 log(LogLevel.Error, "Add: null contact provided (Skipping)");
                 throw new ArgumentNullException("Contacts cannot be null");
             }
-            int id = contact
+            int id = contact;
         }
     }
 
