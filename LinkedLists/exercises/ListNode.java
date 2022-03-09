@@ -1,9 +1,9 @@
-package LinkedLists.exercises.BinaryConversion;
+package LinkedLists.exercises;
 
 public class ListNode {
 
     int val;
-    ListNode next;
+    public ListNode next;
 
     ListNode() {
     }

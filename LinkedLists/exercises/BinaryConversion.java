@@ -1,9 +1,10 @@
+
+package LinkedLists.exercises;
+
 // step one ; Parse limked list and to retrive the digit sequence for the binary number 
 // step two ; convert binary to decimal 
 
 //Definition for singly-linked list.
-
-package LinkedLists.exercises.BinaryConversion;
 
 class Solution {
 
