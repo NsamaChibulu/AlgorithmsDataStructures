@@ -1,4 +1,4 @@
-package LinkedLists.exercises;
+package LinkedLists.Exercises;
 
 public class ListNode {
 
