@@ -6,7 +6,7 @@
  * It is guaranteed that the node to be deleted is not a tail node in the list.
  */
 
-package LinkedLists.exercises;
+package LinkedLists.Exercises;
 
 class Solution {
     public void deleteNode(ListNode2 node) {

@@ -1,4 +1,6 @@
-package LinkedLists.exercises;
+package LinkedLists.Exercises;
+
+
 
 class MiddleOfList {
 

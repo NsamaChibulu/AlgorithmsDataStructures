@@ -1,5 +1,5 @@
 
-package LinkedLists.exercises;
+package LinkedLists.Exercises;
 
 // step one ; Parse limked list and to retrive the digit sequence for the binary number 
 // step two ; convert binary to decimal 
