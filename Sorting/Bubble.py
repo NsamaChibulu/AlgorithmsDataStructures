@@ -4,6 +4,7 @@ class Bubble:
     #definifn the function Bubble sort
     def bubble_sort(list): 
         unsorted_until_index = len(list) - 1
+        #len(list)-1 references the last index of an array 
         sorted = False
 
         while not sorted:
