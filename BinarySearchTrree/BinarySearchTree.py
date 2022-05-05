@@ -99,3 +99,10 @@ def lift(node, nodeToDelete):
         # We return the successor node's right child to be now used 
         # as its parents left child
         return node.rightChild
+
+def traverse_and_print(node):
+    if node is None:
+        return
+    traverse_and_print(node.leftChild)
+    print(node.value)
+    traverse_and_print(node.rightChild)
