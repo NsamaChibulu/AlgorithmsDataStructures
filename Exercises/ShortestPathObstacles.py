@@ -1,7 +1,7 @@
 import collections
 
-class Solution():
-    def shortestPath(grid, k):
+class Solution:
+    def shortestPath(self, grid, k):
         '''
         :type grid = List[List[int]]
         :type k = int
@@ -47,7 +47,7 @@ class Solution():
 
 
 
-    print(shortestPath(([0,0,0],[1,1,0],[0,0,0],[0,1,1]), 1))
+    print(shortestPath([[0,0,0],[1,1,0],[0,0,0],[0,1,1],[0,0,0]], 1))
 
 
 
